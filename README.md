@@ -1,2 +1,2 @@
-# pytho-mailer
+# python-mailer
 Python Mailer
