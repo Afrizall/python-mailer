@@ -3,7 +3,15 @@ import sys, smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-    
+print """
+ __  __       _ _           
+|  \/  | __ _(_) | ___ _ __ 
+| |\/| |/ _` | | |/ _ \ '__|
+| |  | | (_| | | |  __/ |   
+|_|  |_|\__,_|_|_|\___|_|   
+                            
+"""
+
 def kirim_email(sender, target):
     mail.sendmail(sender, target, pesan.as_string())
     print "[+] Sending To : " + target 
